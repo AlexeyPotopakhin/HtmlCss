@@ -1,0 +1,140 @@
+/*Header styles*/
+header {
+    line-height: 50px;
+    border: 1px solid;
+    padding: 5px;
+}
+
+#title {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+/*Menu styles*/
+aside {
+    border: 1px solid;
+    float: left;
+    height: 510px;
+    width: 200px;
+    margin-top: 1px;
+}
+
+.menu {
+    border: 1px solid;
+    margin: 1px;
+    padding: 5px;
+    text-align: left;
+}
+
+/*Main content styles*/
+article {
+    border: 1px solid;
+    margin-left: 203px;
+    margin-top: 1px;
+    height: 510px;
+}
+
+#part1 {
+    border: 1px solid;
+    margin: 1px;
+    height: 300px;
+    text-align: center;
+}
+
+#part2 {
+    border: 1px solid;
+    margin: 1px;
+    line-height: 203px;
+    text-align: center;
+}
+
+.block1 {
+    display: inline-block;
+    border: 1px solid;
+    width: 300px;
+    line-height: 120px;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.block2 {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 150px;
+    text-align: left;
+    width: 30%;
+    border: 1px solid;
+    margin: 1px;
+}
+
+/*Block stripe*/
+.block1:before {
+    content: close-quote;
+    text-align: center;
+    background: #000000;
+    float: right;
+    position: relative;
+
+    display: block;
+    height: 80px;
+    width: 1px;
+
+    transform: translateX(-25px) translateY(-10px) rotate(-40deg);
+}
+
+.block1:after {
+    content: close-quote;
+    text-align: center;
+    background: #000000;
+    float: right;
+    position: relative;
+
+    display: block;
+    height: 50px;
+    width: 1px;
+
+    transform: translateX(-15px) translateY(-6px) rotate(-40deg);
+}
+
+/*Footer styles*/
+footer {
+    border: 1px solid;
+    margin-top: 1px;
+    height: 70px;
+}
+
+#footerPart1 {
+    border: 1px solid;
+    margin: 1px;
+    text-align: center;
+}
+
+#footerPart2 {
+    border: 1px solid;
+    margin: 1px;
+    text-align: center;
+    line-height: 19px;
+}
+
+#footerBlock1 {
+    border: 1px solid;
+    line-height: 40px;
+    margin: 1px;
+    float: left;
+    width: 33%;
+}
+
+#footerBlock2 {
+    border: 1px solid;
+    line-height: 40px;
+    margin: 1px;
+    float: left;
+    width: 33%;
+}
+
+#footerBlock3 {
+    border: 1px solid;
+    line-height: 40px;
+    margin: 1px 1px 1px 66.7%;
+}
